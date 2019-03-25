@@ -8,7 +8,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?php echo user_profession ?></title>
+    <title><?php echo author ?></title>
 
     <meta property="og:url" content="http://shade-design.com.ua/">
     <meta name="author" content=<?php echo author ?>>
@@ -27,7 +27,7 @@
     <link rel="canonical" href="http://advocate-grinchenko.com.ua">
     <link rel="shortlink" href="http://advocate-grinchenko.com.ua">
 
-    <meta property="og:site_name" content=<?php echo user_profession ?>>
+    <meta property="og:site_name" content=<?php echo author ?>>
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://advocate-grinchenko.com.ua">
@@ -128,7 +128,7 @@
                     <a download href="/download/<?php echo visit_card ?>">
                         <img src="./img/jpg.svg" alt="pdf"><span class="hide-small-size"><?php echo save_business ?></span>
                         <span class="show-small-size">SAVE</span>
-                        <img src="./img/replay.png" align="replay-img" class="arrow-save">
+                        <img src="./img/replay.png" alt="replay-img" class="arrow-save">
                     </a>
                 </div>
                 <div class="logo">
@@ -170,7 +170,6 @@
                     <p class="description-dossier"><?php echo lawyers_dossier_description_1 ?>
                     <p class="description-dossier"><?php echo lawyers_dossier_description_2 ?>
                     <p class="description-dossier"><?php echo lawyers_dossier_description_3 ?>
-                    <p class="description-dossier"><?php echo lawyers_dossier_description_4 ?>
                 </div>
             </section>
         <!--sect-1-end-->
@@ -211,8 +210,8 @@
                         <button class="show-more">- <?php echo  more_details ?> -</button>
                     </div>
                     <div class="item hide-item" data-toggle="modal" data-target="#modal-1">
-                        <h3 class="title"><?php echo five_modal_title ?></h3>
-                        <p class="description"><?php echo five_modal_description ?></p>
+                        <h3 class="title"><?php echo six_modal_title ?></h3>
+                        <p class="description"><?php echo six_modal_description ?></p>
                         <button class="show-more">- <?php echo  more_details ?> -</button>
                     </div>
                     <div class="item hide-item" data-toggle="modal" data-target="#modal-1">
@@ -251,16 +250,24 @@
             <section class="sect-3" id="sect-3">
                 <ul class="clients-wrap">
                     <li class="client-logo">
-                        <img src="./img/clients/lechat.png" class="client-img" alt="lechat logo">
+                        <a href="https://lechatnails.com/" class="client-link" target="_blank">
+                            <img src="./img/clients/lechat.png" class="client-img" alt="lechat logo">
+                        </a>
                     </li>
                     <li class="client-logo">
-                        <img src="./img/clients/iport.png" class="client-img" alt="iport logo">
+                        <a href="https://iport.net.ua/" class="client-link" target="_blank">
+                            <img src="./img/clients/iport.png" class="client-img" alt="iport logo">
+                        </a>
                     </li>
                     <li class="client-logo">
-                        <img src="./img/clients/Laserhouse.png" class="client-img" alt="laserhouse logo">
+                        <a href="https://www.laserhouse.com.ua/" class="client-link" target="_blank">
+                            <img src="./img/clients/Laserhouse.png" class="client-img" alt="laserhouse logo">
+                        </a>
                     </li>
                     <li class="client-logo">
-                        <img src="./img/clients/kievzelenbud.png" class="client-img" alt="kievzelenbud logo">
+                        <a href="http://kievzelenbud.com/" class="client-link" target="_blank">
+                            <img src="./img/clients/kievzelenbud.png" class="client-img" alt="kievzelenbud logo">
+                        </a>
                     </li>
                 </ul>
             </section>

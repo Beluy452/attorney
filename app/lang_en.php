@@ -1,8 +1,8 @@
 <?php
 define("name_user", "Vladimir Grinchenko");
 define("locale","en");
-define("author","Vladimir Grinchenko ☎ +38 (050) 841 57 07.");
-define("user_profession", "Attorney Grinchenko");
+define("author","Attorney Vladimir Grinchenko ☎ +38 (050) 841 57 07.");
+define("user_profession", "Attorney");
 define("place","Kyiv, Ukraine");
 define("business_card", "Business card");
 define("visit_card", "en_visit.jpg");
@@ -12,13 +12,12 @@ define("feedback", "Contact me");
 define("save_business", "Save business card");
 
 define("ЕРАУ", "Profile on UNBA");
-define("lawyers_dossier_description_1", "Representation of interests in court, resolution of disputes, defense in criminal cases.");
-define("lawyers_dossier_description_2", "There are a number of won cases, in particular intellectual property disputes,
- corporate disputes, protection in criminal proceedings.");
-define("lawyers_dossier_description_3", "Experience in one of the leading law firms in Kharkiv and Ukraine - ILF, 
-as well as in the prosecutor's office of Ukraine. Since 2016 private law practice.");
-define("lawyers_dossier_description_4", "In 2011 graduated from the Yaroslav the Mudryy National Law Academy of Ukraine,
- faculty of justice. Fluent English language as well.");
+define("lawyers_dossier_description_1", "Representation of interests in court, resolution of disputes, negotiations,
+ defense in criminal cases.");
+define("lawyers_dossier_description_2", "Experience in the ILF law firm (Kharkiv), prosecutor’s office of
+ Ukraine and in the Deposit Guarantee Fund. Since 2016 private law practice.");
+define("lawyers_dossier_description_3", "In 2011 graduated from the Yaroslav the Mudryy National Law Academy of 
+Ukraine, faculty of justice. Fluent English language.");
 define("Cases", "Cases");
 
 define("more_details", "more details");
