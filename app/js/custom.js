@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("textarea[id='my-message']").keyup(function count() {
-        number = $("textarea[id='my-message']").val().length;
+        const number = $("textarea[id='my-message']").val().length;
         $("#count").html(number);
     });
 
@@ -45,7 +45,7 @@ $(document).ready(function () {
     $("#form").submit(function () {
         $.ajax({
             type: "POST",
-            url: "send.php",
+            url: "../send.php",
             data: $(this).serialize()
         }).done(function () {
             $(this).find("input").val("");

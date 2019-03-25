@@ -47,7 +47,7 @@
 
 <div class="wrapper" id="head">
     <div class="container">
-<!--header-begin-->
+    <!--header-begin-->
         <header>
         <!--fixed-nav-begin-->
             <div class="nav-fixed" id="myScrollspy">
@@ -118,9 +118,9 @@
             </div>
             <!--mobile-settings-end-->
         </header>
-<!--header-end-->
+    <!--header-end-->
 
-<!--content-begin-->
+    <!--content-begin-->
         <div class="content">
         <!--sect-top-begin-->
             <section class="sect-top">
@@ -310,8 +310,8 @@
                 </div>
             </footer>
         <!--footer-end-->
-        </div>
-<!--content-begin-->
+</div>
+    <!--content-begin-->
     </div>
     <!--copyright-begin-->
     <div class="copyright">
@@ -360,6 +360,7 @@
         </div>
     </div>
 </div>
+<!-- Modals end -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script defer src="./js/all.js"></script>

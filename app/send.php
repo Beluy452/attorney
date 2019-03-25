@@ -1,6 +1,6 @@
 <?php
 
-$recipient = "grinchenko.vladimir@gmail.com,beluy845@gmail.com";
+$recipient = "grinchenko.vladimir@gmail.com";
 $site_name = "Повідомлення із форми зворотнього звязку";
 
 $name = trim($_POST["name"]);
