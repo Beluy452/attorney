@@ -2,7 +2,7 @@
     include ('define_lang.php');
 ?>
 <!doctype html>
-<html lang="en">
+<html lang=<?php echo locale ?>>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"

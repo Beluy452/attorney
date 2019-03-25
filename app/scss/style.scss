@@ -1082,10 +1082,11 @@ footer {
 
     .clients-wrap {
       flex-wrap: wrap;
+      flex-direction: column;
     }
     .client-logo {
-      width: 48%;
-      margin-bottom: 5px;
+      text-align: center;
+      margin: 10px;
     }
   }
 
