@@ -18,7 +18,6 @@ define("lawyers_dossier_description_2", "Experience in the ILF law firm (Kharkiv
  Ukraine and in the Deposit Guarantee Fund. Since 2016 private law practice.");
 define("lawyers_dossier_description_3", "In 2011 graduated from the Yaroslav the Mudryy National Law Academy of 
 Ukraine, faculty of justice. Fluent English language.");
-define("Cases", "Cases");
 
 define("more_details", "more details");
 define("change_lang", "Change language:");

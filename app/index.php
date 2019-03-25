@@ -176,7 +176,6 @@
 
         <!--sect-2-begin-->
             <section class="sect-2" id="sect-2">
-                <h2><?php echo Cases ?></h2>
                 <div class="case-block">
                     <img src="./img/case-white.png" alt="case">
                 </div>
